@@ -13,11 +13,11 @@ import Blog from './components/Blog.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Blog",
     element: <Principal/>,
     children:[
       {
-        path: "/",
+        path: "/Blog",
         element: <App/>
       },
       {
