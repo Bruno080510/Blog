@@ -58,10 +58,10 @@ export default function NavBar() {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-gray-600 hover:text-blue-600">
-                                <Link to="/" href="javascript:void(0)">Home</Link>
+                                <Link to="/Blog" href="javascript:void(0)">Home</Link>
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
-                            <Link to="/blog" href="javascript:void(0)">Blogs</Link>
+                            <Link to="/artigos" href="javascript:void(0)">Blogs</Link>
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
                             <Link to="/aboutUs" href="javascript:void(0)">About Us</Link>
