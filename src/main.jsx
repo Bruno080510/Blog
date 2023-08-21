@@ -10,10 +10,11 @@ import Contact from './components/Contact.jsx';
 import AboutUs from './components/AboutUs.jsx';
 import Principal from './Principal.jsx';
 import Blog from './components/Blog.jsx';
+import PostagemSeparada from './components/PostagemSeparada.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/Blog",
+    path: "/",
     element: <Principal/>,
     children:[
       {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
         path: "/artigos",
         element: <Blog/>,
       },
+      {
+        path: "/postagem:id",
+        element: <PostagemSeparada/>
+      }
     ]
   },
   

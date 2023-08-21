@@ -10,7 +10,7 @@ export default function NavBar() {
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="javascript:void(0)">
-                            <Link to='/' className="text-2xl font-bold">ReadMe</Link >
+                            <Link to='/Blog' className="text-2xl font-bold">ReadMe</Link >
                         </a>
                         <div className="md:hidden">
                             <button
@@ -58,7 +58,7 @@ export default function NavBar() {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-gray-600 hover:text-blue-600">
-                                <Link to="/Blog" href="javascript:void(0)">Home</Link>
+                                <Link to="/" href="javascript:void(0)">Home</Link>
                             </li>
                             <li className="text-gray-600 hover:text-blue-600">
                             <Link to="/artigos" href="javascript:void(0)">Blogs</Link>
