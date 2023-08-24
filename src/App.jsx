@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react"
 
-import Home from "./components/Home"
+import Home from "./pages/Home"
 import NavBar from "./components/Navbar"
 import Card from "./components/Card"
+import { BsCarFront } from "react-icons/bs"
 function App(){
   const [user, setUser] = useState([])
 
+  
 
   useEffect(()=>{
     fetch('https://api-rest-post-diegocandido.herokuapp.com/postagens/', {

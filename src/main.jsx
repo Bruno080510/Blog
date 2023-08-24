@@ -6,11 +6,10 @@ import './index.css'
 
 import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 
-import Contact from './components/Contact.jsx';
-import AboutUs from './components/AboutUs.jsx';
-import Principal from './Principal.jsx';
-import Blog from './components/Blog.jsx';
-import PostagemSeparada from './components/PostagemSeparada.jsx';
+import AboutUs from './pages/AboutUs.jsx';
+import Principal from './pages/Principal.jsx';
+import Blog from './pages/Blog.jsx';
+import PostagemSeparada from './pages/PostagemSeparada.jsx';
 
 const router = createBrowserRouter([
   {
@@ -30,9 +29,12 @@ const router = createBrowserRouter([
         element: <Blog/>,
       },
       {
-        path: "/postagem:id",
-        element: <PostagemSeparada/>
+        path: "/postagem",
+        element: <PostagemSeparada />
       }
+      
+          
+      
     ]
   },
   
