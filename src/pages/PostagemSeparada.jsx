@@ -20,13 +20,13 @@ function PostagemSeparada({}) {
   return (
     <section className="pt-32 pb-16 flex flex-col px-10 items-center justify-center">
       <div>
-        <h1 className='text-7xl font-bold p-4 pb-8'>{postagem.title}</h1>
+      <h1 className='text-7xl font-bold p-4 pb-8'>{postagem?.title}</h1>
       </div>
       <div className='flex items-center justify-center'>
-        <img className='w-[60rem] rounded-lg' src={postagem.thumbImage} alt="" />
+        <img className='w-[60rem] rounded-lg' src={postagem && postagem.thumbImage} alt="" />
       </div>
       <div>
-        <p className='px-24 pt-8 text-base'>{postagem.description}</p>
+      <p className='p-4 pb-8'>{postagem && postagem.description}</p>
       </div>
     </section>
   );
