@@ -29,8 +29,8 @@ const router = createBrowserRouter([
         element: <Blog/>,
       },
       {
-        path: "/postagem",
-        element: <PostagemSeparada />
+        path: '/postagens/:i',
+        element: <PostagemSeparada />,
       }
       
           
