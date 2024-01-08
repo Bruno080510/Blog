@@ -20,10 +20,6 @@ export default function Card() {
         .then((json) => setUser(json))
     }, [])
 
-
-   
-      
-
     return (
         <div className=' pt-28 px-24 pb-8 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
             {Boolean(user.length) && user.map((e, i) => (
