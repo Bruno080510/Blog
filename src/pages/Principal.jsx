@@ -6,7 +6,10 @@ import { Outlet } from 'react-router-dom'
 const Principal = () => {
   return (
     <div>
+      <div className=' pb-28'>
+
         <NavBar/>
+      </div>
         <Outlet />
         <SimpleFooter />
     </div>

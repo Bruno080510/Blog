@@ -4,7 +4,7 @@ import {BsFillArrowDownCircleFill} from 'react-icons/bs'
 const Home = () => {
     return (
         <>
-            <section className="pt-20 pb-16 flex px-40  items-center justify-center">
+            <section className=" pb-16 flex px-40  items-center justify-center">
                 <div className="flex flex-row items-center">
                     <div className=" w-96">
                         <h1 className=" text-3xl font-extrabold pb-2 ">Read the most interesting articles</h1>
@@ -39,7 +39,7 @@ const Home = () => {
                     <img className='w-[28em]' src="https://i.pinimg.com/564x/45/84/79/458479d0e778b8d77cc95d0f098bee67.jpg" alt="" />
                 </div>
             </div>
-            <div className='flex flex-col items-center justify-center pt-10'>
+            <div className='flex flex-col items-center justify-center pb-8 pt-10'>
                 <h1 className=' text-3xl font-extrabold'>Here are some of the most read</h1>
                
             </div>
